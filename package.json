@@ -1,0 +1,20 @@
+{
+  "name": "clockzhan",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "dev": "tsc && electron ."
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.12",
+    "@types/node": "^22.15.3",
+    "electron": "^36.1.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.48"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "assets/**/*"
+  ],
+  "directories": {
+    "output": "dist"
+  },
+  "appId": "com.clockzhanapp",
+  "win": {
+    "icon": "src/assets/clock_icon.png",
+    "target": [
+      "nsis"
+    ]
+  },
+  "mac": {
+    "icon": "src/assets/clock_icon.png"
+  },
+  "linux": {
+    "icon": "src/assets/clock_icon.png"
+  }
+}
